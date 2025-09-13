@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Grid3X3, ArrowLeft, Trophy, Clock, CheckCircle, Lightbulb } from 'lucide-react';
+import { LayoutGrid, ArrowLeft, Trophy, Clock, CheckCircle, Lightbulb } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 interface CrosswordClue {
@@ -264,7 +264,7 @@ export default function PalavrasCruzadasPage() {
             Voltar
           </Button>
           <div className="p-3 bg-gradient-to-r from-indigo-400 to-indigo-600 rounded-xl">
-            <Grid3X3 className="w-8 h-8 text-white" />
+            <LayoutGrid className="w-8 h-8 text-white" />
           </div>
           <div>
             <h1 className="text-3xl font-bold text-gray-900">Palavras Cruzadas</h1>

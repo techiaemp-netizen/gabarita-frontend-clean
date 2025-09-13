@@ -16,7 +16,7 @@ import {
   Target,
   Zap,
   Brain,
-  Grid3X3,
+  LayoutGrid,
   RotateCcw
 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
@@ -86,7 +86,7 @@ const games: Game[] = [
     id: 'palavras_cruzadas',
     name: 'Palavras Cruzadas',
     description: 'Complete as palavras cruzadas com termos jurídicos e conceitos importantes!',
-    icon: Grid3X3,
+    icon: LayoutGrid,
     difficulty: 'Difícil',
     estimatedTime: '15-20 min',
     maxPlayers: 1,
